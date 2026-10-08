@@ -1,2 +1,2 @@
-# outletai-legal
+# Outletai-legal
 Legal pages for OutletAI
