@@ -1,69 +1,161 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OutletAI - Kullanım Şartları</title>
-<style>
-  body { font-family: -apple-system, BlinkMacSystemFont, sans-serif; max-width: 800px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #333; }
-  h1 { color: #000; border-bottom: 2px solid #000; padding-bottom: 10px; }
-  h2 { margin-top: 30px; color: #111; }
-  a { color: #0066cc; }
-  .updated { color: #666; font-size: 14px; }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OutletAI - Kullanım Şartları</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #3b82f6;
+            --text: #334155;
+            --bg: #f8fafc;
+            --card: #ffffff;
+            --border: #e2e8f0;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            padding: 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        header {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: white;
+            padding: 50px 30px;
+            border-radius: 16px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        header h1 { font-size: 30px; margin-bottom: 10px; font-weight: 700; }
+        header p { font-size: 14px; opacity: 0.75; }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 28px 32px;
+            margin-bottom: 16px;
+            transition: box-shadow 0.2s;
+        }
+        .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+        .card h2 {
+            font-size: 18px;
+            color: var(--primary);
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--accent);
+            display: inline-block;
+            font-weight: 600;
+        }
+        .card p { font-size: 15px; margin-bottom: 12px; }
+        .card p:last-child { margin-bottom: 0; }
+        .card ul { padding-left: 20px; margin-bottom: 12px; }
+        .card li { margin-bottom: 8px; font-size: 15px; }
+        a { color: var(--accent); text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        @media (max-width: 600px) {
+            header { padding: 36px 20px; }
+            header h1 { font-size: 22px; }
+            .card { padding: 22px 20px; }
+            .card h2 { font-size: 16px; }
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <header>
+            <h1>Kullanım Şartları</h1>
+            <p>OutletAI · Son güncelleme: 8 Ekim 2026</p>
+        </header>
 
-<h1>OutletAI Kullanım Şartları</h1>
-<p class="updated">Son güncelleme: 8 Ekim 2026</p>
+        <div class="card">
+            <p>Bu Kullanım Şartları, OutletAI web sitesi, uygulamaları ve ilgili hizmetlerinin kullanımına ilişkin kuralları belirler. OutletAI'yi kullanarak bu şartları kabul etmiş olursunuz.</p>
+        </div>
 
-<p>Bu Kullanım Şartları, OutletAI web sitesi, uygulamaları ve ilgili hizmetlerinin kullanımına ilişkin kuralları belirler. OutletAI'yi kullanarak bu şartları kabul etmiş olursunuz.</p>
+        <div class="card">
+            <h2>1. Hizmetin Kullanımı</h2>
+            <p>OutletAI, kullanıcılara yapay zeka destekli araçlar ve dijital hizmetler sunar. Hizmeti yalnızca yasal, güvenli ve bu şartlara uygun amaçlarla kullanmayı kabul edersiniz.</p>
+        </div>
 
-<h2>1. Hizmetin Kullanımı</h2>
-<p>OutletAI, kullanıcılara yapay zeka destekli araçlar ve dijital hizmetler sunar. Hizmeti yalnızca yasal, güvenli ve bu şartlara uygun amaçlarla kullanmayı kabul edersiniz.</p>
+        <div class="card">
+            <h2>2. Hesap ve Güvenlik</h2>
+            <p>Bazı özellikleri kullanmak için hesap oluşturmanız gerekebilir. Hesap bilgilerinizin doğruluğundan, şifrenizin gizliliğinden ve hesabınız altında gerçekleşen işlemlerden siz sorumlusunuz. Yetkisiz kullanım fark ederseniz bizi gecikmeden bilgilendirmelisiniz.</p>
+        </div>
 
-<h2>2. Hesap ve Güvenlik</h2>
-<p>Bazı özellikleri kullanmak için hesap oluşturmanız gerekebilir. Hesap bilgilerinizin doğruluğundan, şifrenizin gizliliğinden ve hesabınız altında gerçekleşen işlemlerden siz sorumlusunuz. Yetkisiz kullanım fark ederseniz bizi gecikmeden bilgilendirmelisiniz.</p>
+        <div class="card">
+            <h2>3. Kabul Edilmeyen Kullanımlar</h2>
+            <p>Hizmeti aşağıdaki amaçlarla kullanamazsınız:</p>
+            <ul>
+                <li>Yasa dışı, zararlı, yanıltıcı, taciz edici veya hak ihlal eden içerik üretmek ya da paylaşmak.</li>
+                <li>Başkalarının fikri mülkiyet, gizlilik veya kişilik haklarını ihlal etmek.</li>
+                <li>Hizmetin güvenliğini, bütünlüğünü veya performansını bozacak faaliyetlerde bulunmak.</li>
+                <li>Yetkisiz erişim denemek, tersine mühendislik yapmak veya otomatik kötüye kullanım gerçekleştirmek.</li>
+                <li>Spam, kimlik avı, zararlı yazılım veya benzeri kötüye kullanım faaliyetleri yürütmek.</li>
+            </ul>
+        </div>
 
-<h2>3. Kabul Edilmeyen Kullanımlar</h2>
-<p>Hizmeti aşağıdaki amaçlarla kullanamazsınız:</p>
-<ul>
-  <li>Yasa dışı, zararlı, yanıltıcı, taciz edici veya hak ihlal eden içerik üretmek ya da paylaşmak.</li>
-  <li>Başkalarının fikri mülkiyet, gizlilik veya kişilik haklarını ihlal etmek.</li>
-  <li>Hizmetin güvenliğini, bütünlüğünü veya performansını bozacak faaliyetlerde bulunmak.</li>
-  <li>Yetkisiz erişim denemek, tersine mühendislik yapmak veya otomatik kötüye kullanım gerçekleştirmek.</li>
-  <li>Spam, kimlik avı, zararlı yazılım veya benzeri kötüye kullanım faaliyetleri yürütmek.</li>
-</ul>
+        <div class="card">
+            <h2>4. Kullanıcı İçeriği</h2>
+            <p>Hizmete yüklediğiniz veya girdiğiniz içeriklerden siz sorumlusunuz. İçeriğinizi işlemek, görüntülemek, saklamak ve hizmeti sağlamak için gerekli ölçüde kullanmamıza izin verirsiniz. İçeriğiniz üzerindeki mülkiyet haklarınız size aittir.</p>
+        </div>
 
-<h2>4. Kullanıcı İçeriği</h2>
-<p>Hizmete yüklediğiniz veya girdiğiniz içeriklerden siz sorumlusunuz. İçeriğinizi işlemek, görüntülemek, saklamak ve hizmeti sağlamak için gerekli ölçüde kullanmamıza izin verirsiniz. İçeriğiniz üzerindeki mülkiyet haklarınız size aittir.</p>
+        <div class="card">
+            <h2>5. Yapay Zeka Çıktıları</h2>
+            <p>OutletAI tarafından üretilen sonuçlar hatalar, eksiklikler veya güncel olmayan bilgiler içerebilir. Çıktıları kullanmadan önce doğrulamak sizin sorumluluğunuzdadır. Hukuki, finansal, tıbbi veya diğer uzmanlık gerektiren kararlar için yalnızca OutletAI çıktısına güvenmemelisiniz.</p>
+        </div>
 
-<h2>5. Yapay Zeka Çıktıları</h2>
-<p>OutletAI tarafından üretilen sonuçlar hatalar, eksiklikler veya güncel olmayan bilgiler içerebilir. Çıktıları kullanmadan önce doğrulamak sizin sorumluluğunuzdadır. Hukuki, finansal, tıbbi veya diğer uzmanlık gerektiren kararlar için yalnızca OutletAI çıktısına güvenmemelisiniz.</p>
+        <div class="card">
+            <h2>6. Fikri Mülkiyet</h2>
+            <p>OutletAI adı, arayüzleri, yazılımları, tasarımları, logoları ve hizmete ilişkin diğer unsurlar OutletAI veya lisans verenlerine aittir. Bu şartlar size hizmeti kullanmanız için sınırlı, devredilemez ve geri alınabilir bir kullanım hakkı verir.</p>
+        </div>
 
-<h2>6. Fikri Mülkiyet</h2>
-<p>OutletAI adı, arayüzleri, yazılımları, tasarımları, logoları ve hizmete ilişkin diğer unsurlar OutletAI veya lisans verenlerine aittir. Bu şartlar size hizmeti kullanmanız için sınırlı, devredilemez ve geri alınabilir bir kullanım hakkı verir.</p>
+        <div class="card">
+            <h2>7. Ücretler ve Abonelikler</h2>
+            <p>Ücretli özellikler sunulması halinde, ilgili ücretler, ödeme dönemleri, yenileme ve iptal koşulları satın alma sırasında belirtilir. Vergiler, ödeme sağlayıcı ücretleri veya kur farkları kullanıcıya ait olabilir.</p>
+        </div>
 
-<h2>7. Ücretler ve Abonelikler</h2>
-<p>Ücretli özellikler sunulması halinde, ilgili ücretler, ödeme dönemleri, yenileme ve iptal koşulları satın alma sırasında belirtilir. Vergiler, ödeme sağlayıcı ücretleri veya kur farkları kullanıcıya ait olabilir.</p>
+        <div class="card">
+            <h2>8. Hizmet Değişiklikleri ve Askıya Alma</h2>
+            <p>Hizmeti geliştirmek, güvenliği sağlamak veya yasal gerekliliklere uymak amacıyla özellikleri değiştirebilir, geçici olarak durdurabilir veya sonlandırabiliriz. Bu şartları ihlal etmeniz halinde hesabınızı askıya alabilir veya erişiminizi sonlandırabiliriz.</p>
+        </div>
 
-<h2>8. Hizmet Değişiklikleri ve Askıya Alma</h2>
-<p>Hizmeti geliştirmek, güvenliği sağlamak veya yasal gerekliliklere uymak amacıyla özellikleri değiştirebilir, geçici olarak durdurabilir veya sonlandırabiliriz. Bu şartları ihlal etmeniz halinde hesabınızı askıya alabilir veya erişiminizi sonlandırabiliriz.</p>
+        <div class="card">
+            <h2>9. Sorumluluğun Sınırlandırılması</h2>
+            <p>Hizmetler "olduğu gibi" ve "mevcut olduğu şekilde" sunulur. Yürürlükteki mevzuatın izin verdiği azami ölçüde, dolaylı zararlar, veri kaybı, kar kaybı veya hizmet kesintilerinden sorumlu olmayız.</p>
+        </div>
 
-<h2>9. Sorumluluğun Sınırlandırılması</h2>
-<p>Hizmetler "olduğu gibi" ve "mevcut olduğu şekilde" sunulur. Yürürlükteki mevzuatın izin verdiği azami ölçüde, dolaylı zararlar, veri kaybı, kar kaybı veya hizmet kesintilerinden sorumlu olmayız.</p>
+        <div class="card">
+            <h2>10. Tazminat</h2>
+            <p>Hizmeti kullanımınızdan, bu şartları ihlal etmenizden veya üçüncü taraf haklarını ihlal eden içeriklerinizden kaynaklanan talepler, zararlar ve masraflar karşısında OutletAI'yi korumayı kabul edersiniz.</p>
+        </div>
 
-<h2>10. Tazminat</h2>
-<p>Hizmeti kullanımınızdan, bu şartları ihlal etmenizden veya üçüncü taraf haklarını ihlal eden içeriklerinizden kaynaklanan talepler, zararlar ve masraflar karşısında OutletAI'yi korumayı kabul edersiniz.</p>
+        <div class="card">
+            <h2>11. Geçerli Hukuk</h2>
+            <p>Bu şartlar, kanunlar ihtilafı kuralları dikkate alınmaksızın yürürlükteki ilgili mevzuata göre yorumlanır. Uyuşmazlıkların çözümünde yetkili mahkemeler ve icra daireleri, uygulanabilir hukuka göre belirlenir.</p>
+        </div>
 
-<h2>11. Geçerli Hukuk</h2>
-<p>Bu şartlar, kanunlar ihtilafı kuralları dikkate alınmaksızın yürürlükteki ilgili mevzuata göre yorumlanır. Uyuşmazlıkların çözümünde yetkili mahkemeler ve icra daireleri, uygulanabilir hukuka göre belirlenir.</p>
+        <div class="card">
+            <h2>12. Şartlardaki Değişiklikler</h2>
+            <p>Bu Kullanım Şartları zaman zaman güncellenebilir. Güncel şartlar bu sayfada yayımlandığı anda yürürlüğe girer. Hizmeti kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir.</p>
+        </div>
 
-<h2>12. Şartlardaki Değişiklikler</h2>
-<p>Bu Kullanım Şartları zaman zaman güncellenebilir. Güncel şartlar bu sayfada yayımlandığı anda yürürlüğe girer. Hizmeti kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir.</p>
+        <div class="card">
+            <h2>13. İletişim</h2>
+            <p>Kullanım Şartları hakkında sorularınız için bizimle iletişime geçebilirsiniz: <a href="mailto:support@outletai.com">support@outletai.com</a></p>
+        </div>
 
-<h2>13. İletişim</h2>
-<p>Kullanım Şartları hakkında sorularınız için bizimle iletişime geçebilirsiniz: <a href="mailto:support@outletai.com">support@outletai.com</a></p>
-
+        <footer>
+            &copy; 2026 OutletAI. Tüm hakları saklıdır.
+        </footer>
+    </div>
 </body>
 </html>
